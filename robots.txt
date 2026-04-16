@@ -1,0 +1,18 @@
+# Robots.txt for Fundo Premium Furniture & Interior Design
+# Last updated: 2026-04-16
+
+User-agent: *
+Allow: /
+Disallow: /admin
+Disallow: /.env
+Disallow: /private
+
+# Sitemap location
+Sitemap: https://fundo.com/sitemap.xml
+
+# Crawl preferences
+Crawl-delay: 1
+Request-rate: 30/60
+
+# Cache control
+Cache-control: max-age=2592000
